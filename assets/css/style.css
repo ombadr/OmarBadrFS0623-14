@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+/* HEADER */
+
+header {
+  background-color: black;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+/* MAIN */
+
+main {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+main h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* GENERATORE NUMERO */
+
+#generatore-numero {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#generatore-numero button {
+  background: black;
+  color: white;
+  padding: 2em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#generatore-numero button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* TABELLONE */
+
+#tabellone {
+  background: black;
+  padding: 0.5%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#tabellone div {
+  display: inline-block;
+  width: 14%;
+  margin-bottom: 0.5%;
+  text-align: center;
+}
+
+#tabellone div:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+#tabellone div h3 {
+  color: white;
+  font-size: 2em;
+}
+
+.selected {
+  border: 1px solid white;
+}
+
+/* TABELLA GIOCATORE */
+
+#tabella-giocatore {
+  background: rgb(102, 100, 100);
+  padding: 0.5%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#tabella-giocatore div {
+  display: inline-block;
+  width: 14%;
+  margin-bottom: 0.5%;
+  text-align: center;
+}
+
+#tabella-giocatore div:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+#tabella-giocatore div h3 {
+  color: white;
+  font-size: 2em;
+}
+
+/* INPUT GIOCATORE */
+
+#input-giocatore {
+  margin-bottom: 2em;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+
+form input {
+  height: 2em;
+  width: 5em;
+  font-size: 1em;
+  text-align: center;
+}
+
+form button {
+  background: black;
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  width: 5em;
+  border: none;
+  margin-left: 2em;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+footer p {
+  padding: 2em;
+  color: white;
+}

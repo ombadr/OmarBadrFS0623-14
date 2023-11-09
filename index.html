@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tombola by Omar Badr - Epicode" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Tombola</title>
+  </head>
+  <body>
+    <header>
+      <h1>TOMBOLA</h1>
+    </header>
+    <main>
+      <div id="generatore-numero">
+        <button>ESTRAI NUOVO NUMERO</button>
+      </div>
+      <h1>Tabellone</h1>
+      <div id="tabellone"></div>
+      <h1>Tabella giocatore</h1>
+      <div id="tabella-giocatore"></div>
+      <div id="input-giocatore">
+        <form action="">
+          <label for="new-number">Scegli il tuo numero</label>
+          <input
+            type="number"
+            id="new-number"
+            name="new-number"
+            min="1"
+            max="76"
+          />
+          <button type="submit" id="new-number-btn">OK</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Omar Badr &copy; 2023 - Epicode</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
